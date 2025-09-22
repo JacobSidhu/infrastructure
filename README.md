@@ -32,6 +32,12 @@ This repository contains the Terraform configuration for provisioning Azure reso
    terraform apply
    ```
 
+## Tooling
+
+- Run common workflows via `make init`, `make fmt`, `make validate`, or `make plan`
+- `.editorconfig` enforces consistent formatting across editors
+- GitHub Actions workflow (`.github/workflows/terraform-ci.yml`) checks formatting and validation on pushes and pull requests
+
 ## Configuration
 
 Key input variables are defined in `variables.tf`:
